@@ -1,0 +1,100 @@
+##question-1: types of a triangle
+
+ans:
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a==60&&b==60&&c==60){
+        printf("Equilateral triangle");
+
+    }
+    else if (a==90||b==90||c==90){
+            printf("right_angle triangle");
+
+    }
+    else{
+        printf("no types triangle");
+    }
+}
+
+##question-2:temperature 
+
+ans:
+
+#include<stdio.h>
+int main(){
+    float C,F;
+    scanf("%f",&C);
+    F=((9/5.0)*C)+32;
+    printf("%.2f",F);
+}
+##question-3:more water
+
+ans:
+
+#include<stdio.h>
+int main(){
+    int r,a;
+    float sphere,cube;
+    scanf("%d%d",&r,&a);
+    sphere = (4/3.0)*3.1416*r*r*r;
+    cube = a*a*a;
+    if(sphere>cube){
+        printf("sphere more water");
+    }
+    else{
+        printf("cube more water");
+    }
+}
+
+##question-4:diffrence
+
+#include<stdio.h>
+int main(){
+    int A,B,C,D;
+    float ratio;
+    scanf("%d%d%d%d",&A,&B,&C,&D);
+    ratio = (A-B)/(C-D);
+    printf("%.2f",ratio);
+}
+##question-5:bill
+ans:
+#include<stdio.h>
+int main(){
+    int unit,bill;
+    scanf("%d",&unit);
+    if(unit<=250){
+        bill = 250*4;
+    }
+    else if(unit>250 && unit<=500){
+        bill = 1000+((unit-250)*6);
+    }
+    else if(unit>500){
+        bill = 2500 + ((unit-500)*9);
+    }
+    printf("%d",bill);
+}
+##question-5:digit
+ans:
+
+#include<stdio.h>
+int main(){
+    int n,digit1,digit2,result;
+    scanf("%d",&n);
+    digit1=n/100;
+    digit2=n%100;
+    if(digit1>digit2){
+        result = digit1-digit2;
+        printf("%d",result);
+    }
+    else if(digit2>digit1){
+        result = digit2-digit1;
+        printf("%d",result);
+    }
+
+}
+
+
+
+
