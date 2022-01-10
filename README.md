@@ -2,7 +2,7 @@
 #### I'm a student
 ![I'm a student](https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png)
 
-I am Fouzia Arobi,currently studying as a student in the Computer Science and Engineering department of East West University, Dhaka, Bangladesh.
+I am Fouzia Arobi,currently studying in Computer Science and Engineering department of East West University, Dhaka, Bangladesh.
 
 Skills: C/java/python
 
